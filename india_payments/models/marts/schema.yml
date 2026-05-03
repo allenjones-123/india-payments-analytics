@@ -1,0 +1,43 @@
+version: 2
+
+models:
+
+  - name: upi_growth_trend
+    description: "Monthly UPI transaction trends including volume, value, and MoM growth."
+    columns:
+      - name: month
+        tests: [not_null, unique]
+
+  - name: app_market_share
+    columns:
+      - name: month
+        description: "Month of transaction data"
+        tests: [not_null]
+
+      - name: application_name
+        description: "Name of UPI application"
+        tests: [not_null]
+
+      - name: volume_market_share_pct
+        description: "Month-over-month growth percentage in transaction volume"
+        tests: [not_null]
+
+  - name: pmjdy_summary
+    columns:
+      - name: state
+        description: "Name of the State"
+        tests: [not_null, unique]
+
+      - name: contribution_pct
+        description: "Contribution % of each State"
+        tests: [not_null]
+
+  - name: financial_inclusion_impact
+    columns:
+      - name: month
+        description: "Month of PMJDY account creation"
+        tests: [not_null]
+
+      - name: total_accounts
+        description: "Total PMJDY accounts"
+        tests: [not_null]

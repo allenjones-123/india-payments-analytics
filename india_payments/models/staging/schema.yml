@@ -1,0 +1,45 @@
+version: 2
+
+models:
+
+  - name: stg_upi_apps
+    columns:
+      - name: application_name
+        description: "Name of UPI Application"
+        tests: [not_null]
+
+      - name: volume_mn
+        description: "Total UPI transaction volume"
+        tests: [not_null]
+
+      - name: value_cr
+        description: "Total UPI transaction value"
+        tests: [not_null]
+
+      - name: month
+        description: "Month of UPI transaction"
+        tests: [not_null]
+
+  - name: stg_rbi_data
+    columns:
+      - name: month
+        description: "Month of transaction"
+        tests: [not_null, unique]
+
+      - name: volume
+        description: "Total transaction volume"
+        tests: [not_null]
+
+      - name: value
+        description: "Total transaction value"
+        tests: [not_null]
+
+  - name: stg_pmjdy
+    columns:
+      - name: state
+        description: "Name of State"
+        tests: [not_null]
+
+      - name: pmjdy_accounts
+        description: "Total no. of PMJDY accounts"
+        tests: [not_null]

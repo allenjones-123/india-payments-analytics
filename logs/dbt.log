@@ -1,0 +1,113 @@
+[0m18:11:36.776128 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E47886D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E4C189810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E4C189150>]}
+
+
+============================== 18:11:36.776128 | 0e21239f-928f-434f-bd80-e97c9aa74245 ==============================
+[0m18:11:36.776128 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:11:36.776128 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\alaan\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init india_payments', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:11:36.814050 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\alaan\.dbt
+[0m18:11:36.814050 [debug] [MainThread]: Starter project path: C:\Users\alaan\Desktop\PROJECT\UPI\india-payments-analytics\dbt_env\Lib\site-packages\dbt\include\starter_project
+[0m18:11:36.892287 [info ] [MainThread]: 
+Your new dbt project "india_payments" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:11:36.892287 [info ] [MainThread]: Setting up your profile.
+[0m18:12:29.002376 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:12:29.008919 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:12:29.008919 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:21:54.292549 [info ] [MainThread]: Profile india_payments written to C:\Users\alaan\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:21:54.310229 [debug] [MainThread]: Command `dbt init` succeeded at 18:21:54.310229 after 617.61 seconds
+[0m18:21:54.310229 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E4C1B4950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E4D330250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E443B4890>]}
+[0m18:21:54.317231 [debug] [MainThread]: Flushing usage events
+[0m18:21:55.643232 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:24:37.487559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020616AEBED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020617B26A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020617B25610>]}
+
+
+============================== 18:24:37.499574 | ea5ec8d9-0703-4337-a858-b5c3af6939c4 ==============================
+[0m18:24:37.499574 [info ] [MainThread]: Running with dbt=1.11.8
+[0m18:24:37.499574 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\alaan\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:24:37.533146 [info ] [MainThread]: dbt version: 1.11.8
+[0m18:24:37.533146 [info ] [MainThread]: python version: 3.11.9
+[0m18:24:37.533146 [info ] [MainThread]: python path: C:\Users\alaan\Desktop\PROJECT\UPI\india-payments-analytics\dbt_env\Scripts\python.exe
+[0m18:24:37.533146 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m18:24:38.323029 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:24:38.323029 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:24:38.323029 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:24:38.406010 [info ] [MainThread]: Using profiles dir at C:\Users\alaan\.dbt
+[0m18:24:38.406010 [info ] [MainThread]: Using profiles.yml file at C:\Users\alaan\.dbt\profiles.yml
+[0m18:24:38.406010 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\alaan\Desktop\PROJECT\UPI\india-payments-analytics\dbt_project.yml
+[0m18:24:38.406010 [info ] [MainThread]: adapter type: snowflake
+[0m18:24:38.406010 [info ] [MainThread]: adapter version: 1.11.4
+[0m18:24:38.418034 [info ] [MainThread]: Configuration:
+[0m18:24:38.418034 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:24:38.418034 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:24:38.418034 [info ] [MainThread]: Required dependencies:
+[0m18:24:38.418034 [debug] [MainThread]: Executing "git --help"
+[0m18:24:38.422562 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m18:24:38.422562 [info ] [MainThread]: Connection:
+[0m18:24:38.422562 [info ] [MainThread]:   account: EZKUUMF-FU14554.snowflakecomputing.com
+[0m18:24:38.422562 [info ] [MainThread]:   user: ACCOUNTADMIN
+[0m18:24:38.422562 [info ] [MainThread]:   database: STAGING_PAYMENTS
+[0m18:24:38.422562 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:24:38.422562 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:24:38.422562 [info ] [MainThread]:   schema: PUBLIC
+[0m18:24:38.422562 [info ] [MainThread]:   authenticator: None
+[0m18:24:38.422562 [info ] [MainThread]:   oauth_client_id: None
+[0m18:24:38.422562 [info ] [MainThread]:   query_tag: None
+[0m18:24:38.422562 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:24:38.422562 [info ] [MainThread]:   host: None
+[0m18:24:38.434581 [info ] [MainThread]:   port: None
+[0m18:24:38.434581 [info ] [MainThread]:   proxy_host: None
+[0m18:24:38.434581 [info ] [MainThread]:   proxy_port: None
+[0m18:24:38.434581 [info ] [MainThread]:   protocol: None
+[0m18:24:38.439113 [info ] [MainThread]:   connect_retries: 1
+[0m18:24:38.439113 [info ] [MainThread]:   connect_timeout: None
+[0m18:24:38.439113 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:24:38.439113 [info ] [MainThread]:   retry_all: False
+[0m18:24:38.439113 [info ] [MainThread]:   insecure_mode: False
+[0m18:24:38.439113 [info ] [MainThread]:   reuse_connections: True
+[0m18:24:38.439113 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m18:24:38.439113 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m18:24:38.439113 [info ] [MainThread]: Registered adapter: snowflake=1.11.4
+[0m18:24:38.806664 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:24:41.636632 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:24:41.636632 [debug] [MainThread]: On debug: select 1 as id
+[0m18:24:41.636632 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:24:43.657343 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m18:24:43.657343 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m18:24:43.657343 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:24:43.667878 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m18:24:43.668402 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\alaan\Desktop\PROJECT\UPI\india-payments-analytics\dbt_project.yml> not found
+
+[0m18:24:43.668402 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m18:24:43.668402 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  290404 (08001): 404 Not Found: post EZKUUMF-FU14554.snowflakecomputing.com.snowflakecomputing.com:443/session/v1/login-request
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:24:43.668402 [debug] [MainThread]: Command `dbt debug` failed at 18:24:43.668402 after 6.27 seconds
+[0m18:24:43.673914 [debug] [MainThread]: Connection 'debug' was left open.
+[0m18:24:43.673914 [debug] [MainThread]: On debug: No close available on handle
+[0m18:24:43.673914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206157240D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020617EF1110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000206168916D0>]}
+[0m18:24:43.673914 [debug] [MainThread]: Flushing usage events
+[0m18:24:44.890219 [debug] [MainThread]: An error was encountered while trying to flush usage events

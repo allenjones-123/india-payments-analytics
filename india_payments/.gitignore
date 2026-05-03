@@ -1,0 +1,10 @@
+dbt_env/
+venv/
+.env
+
+target/
+dbt_packages/
+logs/
+*.log
+__pycache__/
+*.pyc

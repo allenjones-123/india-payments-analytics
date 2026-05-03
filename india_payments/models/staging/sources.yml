@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_payments
+    database: RAW_PAYMENTS
+    schema: PUBLIC
+
+    tables:
+      - name: upi_apps
+      - name: rbi_data
+      - name: pmjdy
